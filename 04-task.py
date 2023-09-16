@@ -3,27 +3,14 @@
 
 """
 
-"""def removeduplicated( sentence):
-    words=sentence.split('')
-    s=[]
-   
+def removeduplicate(sentence):
+    words=sentence.split(" ")
+    notfon=[]
     for n in words:
-        if n not in s:
-            s.append(n)
-    print(''. join(s))
-ss =input("Ffdfdf'd")
-removeduplicated(ss)  
-s = input("enter sentence:")
-w =[]
-for x in      
-"""
-from collections import Counter 
-def remove_duplicate(s):
+        if n not in notfon:
+            notfon.append(n)
 
-    s = s.split(" ")
-    word_dic = Counter(s)
-    result = " ".join(word_dic.keys())
-    print (result)
- 
-st = 'There are two  d d d d d d children children playing in the park'
-remove_duplicate(st)
+    print(" ".join(notfon))
+
+result=str(input("inter your sentance : "))
+removeduplicate(result)    
