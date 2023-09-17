@@ -20,6 +20,6 @@ print(result1)
 # functional programming
 def countlen(names):
     for x in names:
-        print(len(x))
+        print(len([x]))
 
 countlen(names)        
