@@ -5,7 +5,7 @@ programming]
 
 """
 names = ["mahmoud","farida","ali","hassan","mohamed","khaled","taha"] 
-startword="m"
+startword=""
 # normal list
 result1=[]
 
@@ -26,4 +26,6 @@ def filterword(n):
     
 result3=list(filter(filterword,names))
 print(result3)
+
+
     
