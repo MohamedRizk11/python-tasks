@@ -23,10 +23,6 @@ start_day = int(input("Enter the start day: "))
 end_year = int(input("Enter the end year: "))
 end_month = int(input("Enter the end month: "))
 end_day = int(input("Enter the end day: "))
-while True:   
-    if start_month>12:
-        print("entr0000")
-        start_month = int(input("Enter the start month: "))
 
 difference = calculate_time_difference(start_year, start_month, start_day, end_year, end_month, end_day)
 
