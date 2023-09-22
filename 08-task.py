@@ -7,5 +7,4 @@ x = int(input("enter first number :"))
 y = int(input("enter secound number :"))
 for c in range(x,100):
     if c%y==0:
-    
         print (c)
